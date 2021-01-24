@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.scss';
-import Chart from './Chart';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h2>Covid Global Cases by SGN</h2>
-
-        <Chart />
+        <Home />
       </header>
     </div>
   );
 }
-
 export default App;
